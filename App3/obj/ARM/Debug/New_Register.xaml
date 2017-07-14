@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="App3.New_Register"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="550,200,0,0" TextWrapping="Wrap" Text="学籍番号" VerticalAlignment="Top" Height="64" Width="290"/>
+        <TextBox Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="550,300,0,0" TextWrapping="Wrap" Text="メールアドレス" VerticalAlignment="Top" Height="64" Width="290"/>
+        <TextBox Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="550,400,0,0" TextWrapping="Wrap" Text="パスワード" VerticalAlignment="Top" Height="64" Width="290"/>
+        <TextBox Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="550,500,0,0" TextWrapping="Wrap" Text="確認" VerticalAlignment="Top" Height="64" Width="290"/>
+        <TextBlock x:ConnectionId='1' HorizontalAlignment="Left" Margin="350,215,0,0" TextWrapping="Wrap" Text="学籍番号"          VerticalAlignment="Top" Height="32" Width="104"                                                FontSize="22"/>
+        <TextBlock x:ConnectionId='2' HorizontalAlignment="Left" Margin="350,315,0,0" TextWrapping="Wrap" Text="メールアドレス"    VerticalAlignment="Top" Height="32" Width="122"                                                FontSize="22"/>
+        <TextBlock x:ConnectionId='3' HorizontalAlignment="Left" Margin="350,415,0,0" TextWrapping="Wrap" Text="パスワード"        VerticalAlignment="Top" Height="32" Width="104"                                                FontSize="22"/>
+        <TextBlock x:ConnectionId='4' HorizontalAlignment="Left" Margin="350,500,0,0" TextWrapping="Wrap" Text="パスワード(確認）" VerticalAlignment="Top" Height="64" Width="104"                                                FontSize="22"/>
+        <Button x:ConnectionId='5' Content="登録" HorizontalAlignment="Left" Margin="440,620,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="401"                      FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="570,100,0,0" TextWrapping="Wrap" Text="新規登録" VerticalAlignment="Top" Grid.ColumnSpan="2" FontSize="36"/>
+
+    </Grid>
+</Page>
+
