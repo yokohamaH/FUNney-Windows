@@ -1,0 +1,57 @@
+﻿<Page
+    x:Class="FUNney.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FUNney"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <SplitView x:ConnectionId='1' x:Name="splitView" DisplayMode="CompactOverlay"
+               CompactPaneLength="0"
+               OpenPaneLength="200"
+               IsPaneOpen="{Binding ElementName=toggleButton, Path=IsChecked, Mode=TwoWay}"
+               PaneBackground="#33000000"
+               Margin="0, 48, 0, 0"
+               >
+            <SplitView.Pane>
+                <Grid>
+                    <ListView x:ConnectionId='3' x:Name="listView" HorizontalAlignment="Right" Height="592" 
+                          VerticalAlignment="Top">
+                        <ListViewItem x:ConnectionId='4' x:Name="menu1" Content="取引"                      />
+                        <ListViewItem x:ConnectionId='5' x:Name="menu2" Content="マイニング"                      />
+                        <ListViewItem x:ConnectionId='6' x:Name="menu3" Content="ヘルプ"                      />
+                    </ListView>
+                </Grid>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <Frame x:ConnectionId='7' x:Name="mainContentView" />
+            </SplitView.Content>
+        </SplitView>
+
+        <ToggleButton x:ConnectionId='2' 
+            x:Name="toggleButton" 
+            
+            HorizontalAlignment="Left"  
+            VerticalAlignment="Top" 
+            Width="48" 
+            Height="48" 
+            >
+
+            <ToggleButton.Content>
+                <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE700;" />
+            </ToggleButton.Content>
+        </ToggleButton>
+        <TextBlock HorizontalAlignment="Left" Margin="53,10,0,0" TextWrapping="Wrap" Text="FUNney" VerticalAlignment="Top" Height="33" Width="106" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1101,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="128" FontSize="24" >
+            <Run Text="Test User"/>
+            <LineBreak/>
+            <Run/>
+        </TextBlock>
+
+
+    </Grid>
+</Page>
+
