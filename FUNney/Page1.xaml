@@ -12,7 +12,7 @@
         <Pivot x:Name="rootPivot" >
             <PivotItem Header="Pivot Item 1">
                 <!--Pivot content goes here-->
-                <TextBlock Text="Content of pivot item 1."/>
+                <TextBlock Text="マイニング."/>
             </PivotItem>
             <PivotItem Header="Pivot Item 2">
                 <!--Pivot content goes here-->
