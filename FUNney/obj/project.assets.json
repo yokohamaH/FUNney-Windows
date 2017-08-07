@@ -22010,15 +22010,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\irite\\.nuget\\packages\\": {}
+    "C:\\Users\\b1017146\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\irite\\Desktop\\ICT_Fintech\\FUNney\\FUNney\\FUNney.csproj",
+      "projectUniqueName": "C:\\Users\\b1017146\\Documents\\FUNney-Windows\\FUNney\\FUNney.csproj",
       "projectName": "FUNney",
-      "projectPath": "C:\\Users\\irite\\Desktop\\ICT_Fintech\\FUNney\\FUNney\\FUNney.csproj",
-      "outputPath": "C:\\Users\\irite\\Desktop\\ICT_Fintech\\FUNney\\FUNney\\obj\\",
+      "projectPath": "C:\\Users\\b1017146\\Documents\\FUNney-Windows\\FUNney\\FUNney.csproj",
+      "outputPath": "C:\\Users\\b1017146\\Documents\\FUNney-Windows\\FUNney\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "uap10.0.10586"
